@@ -1,0 +1,85 @@
+.layout
+{
+  margin: 0;
+  padding: 0;
+  background-image: url(http://wonderfulengineering.com/wp-content/uploads/2013/11/robot-wallpaper-4.jpg);
+  background-size: cover;
+  height: 695px;
+  overflow: scroll;
+}
+
+/* .layout-overlay
+{
+  width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.65);
+	position: relative;
+} */
+
+button
+{
+  margin-left: 10px;
+  width: 75px;
+  height: 30px;
+}
+
+.main
+{
+  margin-top: 10%;
+}
+
+#form_input
+{
+  width: 450px;
+  height: 30px;
+}
+
+#message
+{
+  margin-top: 10px;
+}
+
+.chatarea.user {
+  float: right;
+  width: 40%;
+  padding: 20px 0;
+}
+
+.chatarea-inner {
+  float: left;
+  width: 60%;
+  padding: 10px;
+  position: relative;
+  margin: 5px 0;
+}
+.chatarea-inner.user{
+  background: #f85312;
+  color: black;
+  font-weight: bold;
+}
+.chatarea-inner.chatbot{
+  background: #05a127;
+  float: right;
+  color: black;
+  font-weight: bold;
+}
+.chatarea-inner.user:before {
+  content: '';
+  position: absolute;
+  border-top: 20px solid transparent;
+  border-bottom: 0px solid transparent;
+  bottom: 0;
+  left: -20px;
+  color: black;
+  font-weight: bold;
+}
+.chatarea-inner.chatbot:before {
+  content: '';
+  position: absolute;
+  border-top: 20px solid transparent;
+  border-bottom: 0px solid transparent;
+  bottom: 0;
+  right: -20px;
+  color: black;
+  font-weight: bold;
+}

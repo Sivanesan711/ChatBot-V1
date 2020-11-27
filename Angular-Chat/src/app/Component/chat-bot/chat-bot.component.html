@@ -1,0 +1,13 @@
+<div class="layout">
+  <div class="layout-overlay">
+    <div class="container">
+        <div class="main col-md-6 col-sm-6">
+          <input #myInput type="text" id="form_input">
+          <button (click)="message(myInput.value)" class="btn btn-primary">Send</button>
+
+          <div id="message">
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
